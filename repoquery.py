@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-# (c) pmatilai@laiskiainen.org
+# (c) pmatilai@laiskiainen.orgyum config
 
 
 import sys
@@ -1334,7 +1334,7 @@ def main(args):
     parser.add_option("--archlist",
                       help="only query packages of certain architecture(s)")
     parser.add_option("--releasever", default=None,
-                      help="set value of $releasever in yum config and repo files")
+                      help="set value of $releasever in  and repo files")
     parser.add_option("--pkgnarrow", default="repos",
                       help="limit query to installed / available / recent / updates / extras / all (available + installed) / repository (default) packages")
     parser.add_option("--installed", action="store_true", default=False,

@@ -139,7 +139,7 @@ except yum.Errors.YumBaseError, e:
 
 if opts.save or opts.enable or opts.disable or opts.addrepo:
     if yb.conf.uid != 0:
-        logger.error("You must be root to change the yum configuration.")
+        logger.error("You must be root to change the uration.")
         sys.exit(50)
         
 args = set(yb.cmds)
